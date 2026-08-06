@@ -1,7 +1,8 @@
 <h1 align="center">Hi there, I'm Erdem Sıdal 👋</h1>
 
 <p align="center">
-  <em>Backend & Security-focused Software Developer</em> · Java ☕ · Spring 🌱 · Turkey 🇹🇷
+  <em>Backend & Security-focused Software Developer</em><br/>
+  Java ☕ · Python 🐍 · System Design 🏗️ · Turkey 🇹🇷
 </p>
 
 <p align="center">
@@ -58,6 +59,23 @@
 
 ---
 
+## 📈 Contribution Breakdown
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=erdemsidal&theme=github_dark" alt="Profile Details"/>
+</p>
+
+<p align="center">
+  <img height="200em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=erdemsidal&theme=github_dark" alt="Repos per Language"/>
+  <img height="200em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=erdemsidal&theme=github_dark" alt="Most Commit Language"/>
+</p>
+
+<p align="center">
+  <img height="200em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=erdemsidal&theme=github_dark&utcOffset=3" alt="Productive Time"/>
+</p>
+
+---
+
 ## 📌 Featured Projects
 
 - 🗂️ **[collab-board](https://github.com/erdemsidal/collab-board)** — Real-time collaborative Kanban board with instant multi-user sync and optimistic-versioning conflict resolution.
@@ -74,7 +92,7 @@
   </a>
 </p>
 
-- 💼 LinkedIn: [linkedin.com/in/USERNAME](https://www.linkedin.com/in/erdemsidal) 
+- 💼 LinkedIn: [linkedin.com/in/USERNAME](https://www.linkedin.com/in/erdemsidal)
 
 <p align="center"><em>“First, solve the problem. Then, write the code.”</em></p>
 
