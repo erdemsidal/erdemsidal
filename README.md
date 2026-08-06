@@ -92,7 +92,7 @@
   </a>
 </p>
 
-- 💼 LinkedIn: [linkedin.com/in/USERNAME](https://www.linkedin.com/in/erdemsidal)
+- 💼 LinkedIn: [linkedin.com/in/erdemsidal](https://www.linkedin.com/in/erdemsidal)
 
 <p align="center"><em>“First, solve the problem. Then, write the code.”</em></p>
 
