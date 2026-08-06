@@ -59,19 +59,10 @@
 
 ---
 
-## 📈 Contribution Breakdown
+## 📈 Contribution Activity
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=erdemsidal&theme=github_dark" alt="Profile Details"/>
-</p>
-
-<p align="center">
-  <img height="200em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=erdemsidal&theme=github_dark" alt="Repos per Language"/>
-  <img height="200em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=erdemsidal&theme=github_dark" alt="Most Commit Language"/>
-</p>
-
-<p align="center">
-  <img height="200em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=erdemsidal&theme=github_dark&utcOffset=3" alt="Productive Time"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=erdemsidal&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Contribution Activity Graph"/>
 </p>
 
 ---
@@ -92,7 +83,6 @@
   </a>
 </p>
 
-- 💼 LinkedIn: [linkedin.com/in/erdemsidal](https://www.linkedin.com/in/erdemsidal)
+- 💼 LinkedIn: [linkedin.com/in/erdemsidal](https://www.linkedin.com/in/erdemsidal/)
 
 <p align="center"><em>“First, solve the problem. Then, write the code.”</em></p>
-
