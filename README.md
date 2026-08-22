@@ -45,8 +45,14 @@
 ## 📊 GitHub Statistics
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.zohan.tech/api?username=erdemsidal&show_icons=true&include_all_commits=true&rank_icon=percentile&theme=transparent&hide_border=true" alt="Erdem's GitHub stats"/>
-  <img height="180em" src="https://github-readme-stats.zohan.tech/api/top-langs/?username=erdemsidal&layout=compact&langs_count=6&theme=transparent&hide_border=true&exclude_repo=e-Muhasebe-Project,material-ui&hide=html,css,scss,dockerfile" alt="Top Languages"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"/>
+    <img height="195" src="assets/stats-light.svg" alt="Erdem's GitHub stats"/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg"/>
+    <img height="195" src="assets/langs-light.svg" alt="Most Used Languages"/>
+  </picture>
 </p>
 
 <p align="center">
@@ -58,7 +64,10 @@
 ## 📈 Contribution Activity
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/6f42c1/erdemsidal" alt="Contribution Chart"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/erdemsidal/erdemsidal/output/github-snake-dark.svg"/>
+    <img src="https://raw.githubusercontent.com/erdemsidal/erdemsidal/output/github-snake.svg" alt="Contribution snake animation"/>
+  </picture>
 </p>
 
 ---
