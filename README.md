@@ -46,7 +46,7 @@
 
 <p align="center">
   <img height="180em" src="https://github-readme-stats.zohan.tech/api?username=erdemsidal&show_icons=true&include_all_commits=true&rank_icon=percentile&theme=transparent&hide_border=true" alt="Erdem's GitHub stats"/>
-  <img height="180em" src="https://github-readme-stats.zohan.tech/api/top-langs/?username=erdemsidal&layout=compact&langs_count=8&theme=transparent&hide_border=true" alt="Top Languages"/>
+  <img height="180em" src="https://github-readme-stats.zohan.tech/api/top-langs/?username=erdemsidal&layout=compact&langs_count=6&theme=transparent&hide_border=true&exclude_repo=e-Muhasebe-Project,material-ui&hide=html,css,scss,dockerfile" alt="Top Languages"/>
 </p>
 
 <p align="center">
@@ -56,10 +56,6 @@
 ---
 
 ## 📈 Contribution Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=erdemsidal&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Contribution Activity Graph"/>
-</p>
 
 <p align="center">
   <img src="https://ghchart.rshah.org/6f42c1/erdemsidal" alt="Contribution Chart"/>
