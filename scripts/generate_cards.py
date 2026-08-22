@@ -33,10 +33,6 @@ THEMES = {
 }
 FONT = "'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif"
 
-MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
-          "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
-
-
 def rest(path):
     req = urllib.request.Request("https://api.github.com" + path)
     req.add_header("Accept", "application/vnd.github+json")
@@ -70,10 +66,7 @@ def collect():
         user(login: "%s") {
           contributionsCollection {
             totalCommitContributions
-            contributionCalendar {
-              totalContributions
-              weeks { contributionDays { date contributionCount } }
-            }
+            contributionCalendar { totalContributions }
           }
         }
       }""" % USER)["user"]["contributionsCollection"]
@@ -96,8 +89,6 @@ def collect():
             ("Public Repos", user["public_repos"]),
         ],
         "langs": [(name, size / total * 100) for name, size in top],
-        "weeks": calendar["weeks"],
-        "total_contribs": calendar["totalContributions"],
     }
 
 
@@ -147,59 +138,6 @@ def langs_svg(langs, theme):
     return card(340, 195, theme, "Most Used Languages", "\n".join(body))
 
 
-def heat_level(count):
-    if count == 0:
-        return 0
-    if count <= 2:
-        return 1
-    if count <= 4:
-        return 2
-    if count <= 7:
-        return 3
-    return 4
-
-
-def contribs_svg(weeks, total, theme):
-    c = THEMES[theme]
-    cell, gap = 10, 3
-    left, top = 24, 66
-    grid_w = len(weeks) * (cell + gap) - gap
-    width = left * 2 + grid_w
-    body = []
-    prev_month = None
-    for wi, week in enumerate(weeks):
-        x = left + wi * (cell + gap)
-        month = int(week["contributionDays"][0]["date"][5:7])
-        if month != prev_month:
-            if prev_month is not None and x + 28 <= left + grid_w:
-                body.append(
-                    f'  <text x="{x}" y="{top - 8}" font-family="{FONT}" '
-                    f'font-size="11" fill="{c["text"]}">{MONTHS[month - 1]}</text>')
-            prev_month = month
-        for di, day in enumerate(week["contributionDays"]):
-            y = top + di * (cell + gap)
-            color = c["heat"][heat_level(day["contributionCount"])]
-            body.append(
-                f'  <rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2" fill="{color}">'
-                f'<title>{day["date"]}: {day["contributionCount"]}</title></rect>')
-    footer_y = top + 7 * (cell + gap) + 18
-    body.append(
-        f'  <text x="{left}" y="{footer_y}" font-family="{FONT}" font-size="12" '
-        f'fill="{c["text"]}">{total} contributions in the last year</text>')
-    legend_x = left + grid_w - 5 * (cell + gap) - 40
-    body.append(
-        f'  <text x="{legend_x - 8}" y="{footer_y}" text-anchor="end" '
-        f'font-family="{FONT}" font-size="12" fill="{c["text"]}">Less</text>')
-    for i in range(5):
-        body.append(
-            f'  <rect x="{legend_x + i * (cell + gap)}" y="{footer_y - 9}" width="{cell}" '
-            f'height="{cell}" rx="2" fill="{c["heat"][i]}"/>')
-    body.append(
-        f'  <text x="{legend_x + 5 * (cell + gap) + 5}" y="{footer_y}" '
-        f'font-family="{FONT}" font-size="12" fill="{c["text"]}">More</text>')
-    return card(width, footer_y + 16, theme, "Contribution Activity", "\n".join(body))
-
-
 def main():
     data = collect()
     os.makedirs("assets", exist_ok=True)
@@ -208,8 +146,6 @@ def main():
             f.write(stats_svg(data["stats"], theme))
         with open(f"assets/langs-{theme}.svg", "w", encoding="utf-8") as f:
             f.write(langs_svg(data["langs"], theme))
-        with open(f"assets/contribs-{theme}.svg", "w", encoding="utf-8") as f:
-            f.write(contribs_svg(data["weeks"], data["total_contribs"], theme))
     print("stats:", data["stats"])
     print("langs:", [(n, round(p, 1)) for n, p in data["langs"]])
 

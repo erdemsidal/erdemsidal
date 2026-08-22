@@ -61,17 +61,6 @@
 
 ---
 
-## 📈 Contribution Activity
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/contribs-dark.svg"/>
-    <img src="assets/contribs-light.svg" alt="Contribution activity (last year)"/>
-  </picture>
-</p>
-
----
-
 ## 📌 Featured Projects
 
 - 🗂️ **[collab-board](https://github.com/erdemsidal/collab-board)** — Real-time collaborative Kanban board with instant multi-user sync and optimistic-versioning conflict resolution.

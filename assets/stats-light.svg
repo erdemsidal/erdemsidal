@@ -3,10 +3,10 @@
   <text x="24" y="38" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#6f42c1">Erdem Sıdal's GitHub Stats</text>
   <circle cx="30" cy="69" r="4" fill="#6f42c1"/>
   <text x="46" y="74" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="14" fill="#57606a">Contributions (last year)</text>
-  <text x="396" y="74" text-anchor="end" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#24292f">91</text>
+  <text x="396" y="74" text-anchor="end" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#24292f">96</text>
   <circle cx="30" cy="97" r="4" fill="#6f42c1"/>
   <text x="46" y="102" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="14" fill="#57606a">Commits (last year)</text>
-  <text x="396" y="102" text-anchor="end" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#24292f">83</text>
+  <text x="396" y="102" text-anchor="end" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#24292f">88</text>
   <circle cx="30" cy="125" r="4" fill="#6f42c1"/>
   <text x="46" y="130" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="14" fill="#57606a">Total Stars</text>
   <text x="396" y="130" text-anchor="end" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#24292f">3</text>

@@ -2,16 +2,16 @@
   <rect x="0.5" y="0.5" width="339" height="194" rx="6" fill="none" stroke="#30363d"/>
   <text x="24" y="38" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#a371f7">Most Used Languages</text>
   <rect x="24" y="62" width="292" height="10" rx="5" fill="#21262d"/>
-  <rect x="24.0" y="62" width="273.8" height="10" rx="5" fill="#b07219"/>
-  <rect x="297.8" y="62" width="14.1" height="10" rx="5" fill="#f1e05a"/>
-  <rect x="311.9" y="62" width="3.0" height="10" rx="5" fill="#3572A5"/>
+  <rect x="24.0" y="62" width="271.9" height="10" rx="5" fill="#b07219"/>
+  <rect x="295.9" y="62" width="14.0" height="10" rx="5" fill="#f1e05a"/>
+  <rect x="309.9" y="62" width="5.0" height="10" rx="5" fill="#3572A5"/>
   <rect x="314.9" y="62" width="2.0" height="10" rx="5" fill="#89e051"/>
   <circle cx="29" cy="93" r="5" fill="#b07219"/>
-  <text x="42" y="98" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d1d9">Java <tspan fill="#8b949e">93.8%</tspan></text>
+  <text x="42" y="98" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d1d9">Java <tspan fill="#8b949e">93.1%</tspan></text>
   <circle cx="29" cy="119" r="5" fill="#f1e05a"/>
   <text x="42" y="124" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d1d9">JavaScript <tspan fill="#8b949e">4.8%</tspan></text>
   <circle cx="29" cy="145" r="5" fill="#3572A5"/>
-  <text x="42" y="150" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d1d9">Python <tspan fill="#8b949e">1.0%</tspan></text>
+  <text x="42" y="150" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d1d9">Python <tspan fill="#8b949e">1.7%</tspan></text>
   <circle cx="179" cy="93" r="5" fill="#89e051"/>
   <text x="192" y="98" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d1d9">Shell <tspan fill="#8b949e">0.4%</tspan></text>
 </svg>
