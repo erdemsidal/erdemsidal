@@ -45,16 +45,12 @@
 ## 📊 GitHub Statistics
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=erdemsidal&show_icons=true&include_all_commits=true&count_private=true&rank_icon=percentile&theme=transparent&hide_border=true" alt="Erdem's GitHub stats"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=erdemsidal&layout=compact&langs_count=8&theme=transparent&hide_border=true" alt="Top Languages"/>
+  <img height="180em" src="https://github-readme-stats.zohan.tech/api?username=erdemsidal&show_icons=true&include_all_commits=true&rank_icon=percentile&theme=transparent&hide_border=true" alt="Erdem's GitHub stats"/>
+  <img height="180em" src="https://github-readme-stats.zohan.tech/api/top-langs/?username=erdemsidal&layout=compact&langs_count=8&theme=transparent&hide_border=true" alt="Top Languages"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=erdemsidal&theme=transparent&hide_border=true" alt="GitHub Streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=erdemsidal&theme=flat&no-frame=true&column=7&margin-w=8" alt="Trophies"/>
+  <img src="https://streak-stats.demolab.com/?user=erdemsidal&theme=transparent&hide_border=true" alt="GitHub Streak"/>
 </p>
 
 ---
@@ -63,6 +59,10 @@
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=erdemsidal&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Contribution Activity Graph"/>
+</p>
+
+<p align="center">
+  <img src="https://ghchart.rshah.org/6f42c1/erdemsidal" alt="Contribution Chart"/>
 </p>
 
 ---
@@ -81,8 +81,9 @@
   <a href="mailto:erdemsidal@hotmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
+  <a href="https://www.linkedin.com/in/erdemsidal/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
 </p>
 
-- 💼 LinkedIn: [linkedin.com/in/erdemsidal](https://www.linkedin.com/in/erdemsidal/)
-
-<p align="center"><em>“First, solve the problem. Then, write the code.”</em></p>
+<p align="center"><em>"First, solve the problem. Then, write the code."</em></p>
