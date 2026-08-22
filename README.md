@@ -65,8 +65,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/erdemsidal/erdemsidal/output/github-snake-dark.svg"/>
-    <img src="https://raw.githubusercontent.com/erdemsidal/erdemsidal/output/github-snake.svg" alt="Contribution snake animation"/>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/contribs-dark.svg"/>
+    <img src="assets/contribs-light.svg" alt="Contribution activity (last year)"/>
   </picture>
 </p>
 
