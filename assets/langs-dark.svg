@@ -3,7 +3,7 @@
   <text x="24" y="38" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#a371f7">Most Used Languages</text>
   <rect x="24" y="62" width="292" height="10" rx="5" fill="#21262d"/>
   <rect x="24.0" y="62" width="276.2" height="10" rx="5" fill="#b07219"/>
-  <rect x="300.2" y="62" width="12.9" height="10" rx="5" fill="#f1e05a"/>
+  <rect x="300.2" y="62" width="12.8" height="10" rx="5" fill="#f1e05a"/>
   <rect x="313.0" y="62" width="2.2" height="10" rx="5" fill="#3572A5"/>
   <rect x="315.3" y="62" width="2.0" height="10" rx="5" fill="#89e051"/>
   <circle cx="29" cy="93" r="5" fill="#b07219"/>
